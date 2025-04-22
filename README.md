@@ -58,8 +58,10 @@ Este é um projeto de aplicação web de página única (SPA) desenvolvida com *
    - Crie um arquivo `db.json` com os dados iniciais
    - Inicie o servidor com:
      ```bash
-     json-server --watch db.json
+     npx json-server db.json
      ```
+
+     http://localhost:3000/
 
 ---
 
