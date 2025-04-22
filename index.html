@@ -9,36 +9,46 @@
 <body>
     <section id="Dashboard">
 
+        <div class="card entradas"></div>
+        <div class="card Saidas"></div>
+
         
     </section>
-<section id="FormRequest">
-    <main>
-        <form>
-            <div>
-                <label for="description">Descrição da Transação:</label>
-                <input type="text" name="description" id="description">
-            </div> 
 
-            <div>
-                <label for="ValueTransition">Valor da Transação:</label>
-                <input type="text" name="ValueTransition" id="ValueTransition">
-            </div> 
+<div class="CRUD">
+    <section id="FormRequest">
+        <main>
+            <form>
+                <div class="input-group">
+                    <input type="text" id="DescriptionTransition" placeholder=" " >
+                    <label for="DescriptionTransition">Descrição</label>
+                  </div>
+                  
+    
+                <div class="input-group">
+                    
+                    <input type="text" name="ValueTransition" id="ValueTransition" placeholder=" ">
+                    <label for="ValueTransition">Valor da Transação:</label>
+                </div> 
+    
+                <div class="input-group">
+                    <input type="datetime" name="DateTransition" id="DateTransition" placeholder=" ">
+                    <label for="DateTransition">Data da Transação:</label>
+                </div>
+    
+                <button id="SendNewTransition">Adicionar Transação</button>
+    
+    
+            </form>
+        </main>
+    </section>
+    
+    <section id="ListTrasition">
+       
+    
+    </section>
+</div>    
 
-            <div>
-                <label for="DateTransition">Data da Transação:</label>
-                <input type="datetime" name="DateTransition" id="DateTransition">
-            </div>
-
-            <button id="SendNewTransition">Adicionar Transação</button>
-
-
-        </form>
-    </main>
-</section>
-
-<section id="ListTrasition">
-
-</section>
     
 
     <script src="script.js"></script>
